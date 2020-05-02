@@ -112,6 +112,7 @@ public class GenericLibrary extends Driver{
 			WebDriverWait wait = new WebDriverWait(driver, waitingTime);
 			wait.until(ExpectedConditions.presenceOfElementLocated(element));
 			return true;
+			
 		} catch (Exception e) {
 			return false;
 		}
