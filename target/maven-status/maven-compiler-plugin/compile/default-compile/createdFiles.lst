@@ -1,0 +1,4 @@
+com\wordpress\base\GenericLibrary.class
+com\wordpress\pages\LoginPage.class
+com\wordpress\base\Driver.class
+com\wordpress\utils\Log.class
